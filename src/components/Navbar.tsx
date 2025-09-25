@@ -11,7 +11,7 @@ export default function Navbar() {
   ]
 
   return (
-    <nav className="fixed w-full h-8 inline-flex gap-6 p-1 pl-8 bg-gray-300">
+    <nav className="fixed w-full h-8 inline-flex gap-6 p-1 pl-8 bg-gray-100">
       {routes.map(route=>(
         <Link 
         key={route.href}
